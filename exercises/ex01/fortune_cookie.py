@@ -21,7 +21,7 @@ else:
     if x == 15:
         print("You will recieve everything you ever wanted")
     else:
-        if x == 14
+        if x == 14:
             print("You get three wishes provided by a genie")
         else:
             print("You will be blessed with good vibes for a week")
