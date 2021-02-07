@@ -1,6 +1,6 @@
 """An exercise in remainders and boolean logic."""
 
-__author__ = "730368118"
+__author__ = '730368118'
 
 
 favorite = int(input("Whats your favorite interger: "))
