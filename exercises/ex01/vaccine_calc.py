@@ -17,13 +17,13 @@ from datetime import datetime
 from datetime import timedelta
 
 
-Population: int = int(input("Population: "))sss
+Population: int = int(input("Population: "))
 Doses_administered: int = int(input("Dose administered: "))
 Doses_per_day: int = int(input("Doses per day: "))
 Target_percent_vaccinated: int = int(input("Target percent vaccinated: "))
-function: int= round((((Target_percent_vaccinated*(Population*2))/100) - Doses_administered)/Doses_per_day)
-vaccination_daysleft: timedelta= timedelta(function)
+function: int = round((((Target_percent_vaccinated * (Population * 2)) / 100) - Doses_administered) / Doses_per_day)
+vaccination_daysleft: timedelta = timedelta(function)
 today: datetime = datetime.today()
 Vaccination_End_Days: datetime = today + vaccination_daysleft
-Finish_date: str= Vaccination_End_Days.strftime("%B %d, %Y")
-print( "We will reach " + str(Target_percent_vaccinated) + "% vaccination in " + str(function) + " days, which falls on " + Finish_date)
+Finish_date: str = Vaccination_End_Days.strftime("%B %d, %Y")
+print("We will reach " + str(Target_percent_vaccinated) + "% vaccination in " + str(function) + " days, which falls on " + Finish_date)

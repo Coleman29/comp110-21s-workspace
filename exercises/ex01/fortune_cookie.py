@@ -1,6 +1,6 @@
 """Program that outputs one of at least four random, good fortunes."""
 
-__author__ = '730368118'
+__author__ = "730368118"
 
 # The randint function is imported from the random library so that
 # you are able to generate integers at random.
@@ -9,7 +9,6 @@ __author__ = '730368118'
 #
 # For example, consider the function call expression: randint(1, 100)
 # It will evaluate to an int value >= 1 and <= 100. 
-
 
 
 from random import randint
@@ -21,7 +20,7 @@ else:
     if x == 15:
         print("You will recieve everything you ever wanted")
     else:
-        if x == 14:
+        if x != 14:
             print("You get three wishes provided by a genie")
         else:
             print("You will be blessed with good vibes for a week")
